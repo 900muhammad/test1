@@ -9,6 +9,6 @@ batREGEX = re.compile(r'Bat(man|mobile|car|cave)'.lower())
 fetch = batREGEX.search('THe Batmobile lost batman') 
 print(fetch.group().lower())
 batREGEX = re.compile(r'Bat(wo)?man')
-fetch = batREGEX.search('Red man and Batman')
+fetch = batREGEX.search('Red man and Batman ')
 print(fetch.group())
 
